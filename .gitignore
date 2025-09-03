@@ -1,11 +1,9 @@
-# Ignore virtual environments
-cccs106_env_quite/
-
-# Ignore Python cache files
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Ignore VSCode settings (optional)
 .vscode/
+=======
+__pycache__/ 
+*.pyc 
+.vscode/ 
+*.log 
+.env 
+cccs106_env_quite/
+ 
