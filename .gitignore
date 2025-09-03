@@ -3,4 +3,4 @@ __pycache__/
 .vscode/ 
 *.log 
 .env 
-cccs106_env_quite 
+cccs106_env_quite/
