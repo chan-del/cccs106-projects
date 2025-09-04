@@ -45,7 +45,11 @@
 - Understood how to handle errors (e.g., invalid inputs, division by zero) in Python programs.  
 
 ## Screenshots
-- `lab1_screenshots/environment_setup.png`  
-- `lab1_screenshots/vscode_setup.png`  
-- `lab1_screenshots/hello_world_output.png`  
-- `lab1_screenshots/basic_calculator_output.png`  
+- ../lab1_screenshots/environmental_setup.PNG
+- ../lab1_screenshots/environmental_setup2.PNG
+- ../lab1_screenshots/vscode_setup.PNG
+- ../lab1_screenshots/hello_world_output.jpg
+- ../lab1_screenshots/basic_calculator_output.jpg
+
+
+
