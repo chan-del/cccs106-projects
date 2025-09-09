@@ -3,10 +3,10 @@ Application Development and Emerging Technologies
 Academic Year 2025-2026
 
 ## Student Information
-- **Name:** [Rona Mae MAriscotes Quite]
-- **Student ID:** [231002336]
-- **Program:** [Computer Science]
-- **Section:** [A]
+- **Name:** Rona Mae MAriscotes Quite
+- **Student ID:** 231002336
+- **Program:** Computer Science
+- **Section:** A
 
 ## Repository Structure
 
