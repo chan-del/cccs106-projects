@@ -1,9 +1,10 @@
 import mysql.connector
 
 def connect_db():
-    return mysql.connector.connect(
+    connect = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="", 
+        password="",
         database="fletapp"
     )
+    return connect
