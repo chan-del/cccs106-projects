@@ -165,9 +165,36 @@ httpx>=0.27.0
 python-dotenv>=1.0.0
 ```
 
-### Technical Implementation
+## Code & Implementation
 
-## 
+### Code Overview
+- **config.py** – Manages app settings and API keys. Validates that `OPENWEATHER_API_KEY` exists.
+- **main.py (WeatherApp)** – Handles UI, search, and data display. Includes inline comments and docstrings for clarity.
+- **weather_service.py** – Fetches weather & forecast data from OpenWeatherMap. Handles errors like invalid cities, network issues, and API failures.
+
+**Examples of inline comments:**
+
+```bash
+# Load search history from JSON file
+def load_history(self):
+    if self.history_file.exists():
+        with open(self.history_file, 'r') as f:
+            return json.load(f)
+    return []
+
+# Fetch weather asynchronously
+async def fetch_weather(self):
+    """Fetch weather and forecast for the entered city."""
+```
+
+## Challenges & Learnings
+
+- **Async Programming** – I learned I had to use `page.run_task()` so the app wouldn’t freeze while fetching weather data.  
+- **API Data Parsing** – The forecast API gave 3-hour intervals, so I grouped them into hourly and daily summaries for a cleaner display.  
+- **UI Design** – I focused on making a dark theme that’s readable, with good contrast, spacing, and layout.  
+- **State Management** – I made the search history save in a JSON file so it remembers the last 5 cities even after restarting the app.  
+- **Error Handling** – I added proper exception handling so users see friendly messages instead of the app crashing.
+
 
 
 
