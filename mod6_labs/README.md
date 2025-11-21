@@ -80,27 +80,27 @@ A comprehensive weekly forecast displayed in a dedicated side panel. Each day sh
 ## Screenshots
 
 ### 🟦 Initial Screen (before searching)
-![Initial Screen](screenshots/initial_screen.png)
+![Initial Screen](screenshots/initial_screen.PNG)
 
 ---
 
 ### Weather Results – Manila
-![Weather Results](screenshots/weather_results.png)
+![Weather Results](screenshots/weather_results.PNG)
 
 ---
 
 ### Weather Details (Forecast + Air Conditions)
-![Weather Details](screenshots/weather_details.png)
+![Weather Details](screenshots/weather_details.PNG)
 
 ---
 
 ## Other Countries 
 
 ### 🇯🇵 Tokyo Weather
-![Tokyo Weather](screenshots/tokyo_weather.png)
+![Tokyo Weather](screenshots/tokyo_weather.PNG)
 
 ### 🇯🇵 Tokyo Weather Details (Forecast + Air Conditions)
-![Tokyo Weather Details](screenshots/tokyo_weather_details.png)
+![Tokyo Weather Details](screenshots/tokyo_weather_details.PNG)
 
 ## Installation
 
