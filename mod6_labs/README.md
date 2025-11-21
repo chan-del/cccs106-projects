@@ -75,7 +75,20 @@ A comprehensive weekly forecast displayed in a dedicated side panel. Each day sh
 - Used Python's `datetime` module for proper date parsing and formatting  
 - Created conditional logic to display "Today" for current day, then day names  
 - Designed a fixed-width side panel with consistent card heights  
-- Added scrolling support for longer forecast lists  
+- Added scrolling support for longer forecast lists
+
+### Additional Features
+
+#### Air Conditions Panel
+A dedicated information panel showing detailed atmospheric conditions:
+
+- **Real Feel**: Apparent temperature accounting for humidity and wind  
+- **Wind**: Current wind speed in km/h  
+- **Humidity**: Relative humidity percentage  
+- **UV Index**: Sun exposure level for skin protection planning  
+
+**Implementation:**  
+Displays in a clean grid format below the current weather, pulling data from OpenWeatherMap's current weather endpoint. Uses intuitive icons for each metric to enhance readability.
 
 ## Screenshots
 
