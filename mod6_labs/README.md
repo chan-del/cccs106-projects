@@ -147,3 +147,31 @@ cp .env.example .env
 # Run the application
 python main.py
 ```
+## Usage
+
+1. Run the app:
+```bash
+python main.py
+```
+2. Type any city (Manila, Tokyo, etc.)
+   - View real-time weather
+   - View hourly forecast
+   - View 7-day forecast
+
+## Dependencies
+```txt
+flet==0.28.3
+httpx>=0.27.0
+python-dotenv>=1.0.0
+```
+
+### Technical Implementation
+
+## 
+
+
+
+
+
+
+
